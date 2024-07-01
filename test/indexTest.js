@@ -14,7 +14,7 @@ describe('index.js', function() {
       expect(distanceFromHqInBlocks(34)).to.equal(8);
     });
   });
-
+  
   describe('distanceFromHqInFeet()', function() {
     it('returns a distance in feet', function() {
       expect(distanceFromHqInFeet(43)).to.equal(264);
@@ -61,4 +61,5 @@ describe('index.js', function() {
       expect(calculatesFarePrice(34, 24)).to.equal('cannot travel that far');
     });
   });
-});
+
+})
